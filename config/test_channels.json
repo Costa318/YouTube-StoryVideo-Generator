@@ -1,0 +1,10 @@
+{
+  "description": "Test configuration with one channel for initial validation",
+  "channels": [
+    {
+      "name": "MrCreepyPasta",
+      "url": "https://www.youtube.com/@MrCreepyPasta",
+      "description": "Test channel for transcript extraction validation"
+    }
+  ]
+}

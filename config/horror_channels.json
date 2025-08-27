@@ -1,0 +1,79 @@
+{
+  "description": "Configuration file for horror story YouTube channels to analyze",
+  "analysis_settings": {
+    "min_views_default": 100000,
+    "max_videos_per_channel": 20,
+    "target_video_length": "30-120 minutes",
+    "focus": "Long-form horror narratives with high engagement"
+  },
+  "channels": [
+    {
+      "name": "MrCreepyPasta",
+      "url": "https://www.youtube.com/@MrCreepyPasta",
+      "description": "Popular horror narrator with millions of subscribers",
+      "specialty": "Creepypasta narrations",
+      "estimated_subscribers": "1.5M+",
+      "content_type": "Narrated horror stories with minimal visuals"
+    },
+    {
+      "name": "CreepsMcPasta",
+      "url": "https://www.youtube.com/@CreepsMcPasta",
+      "description": "Long-form horror story narrations",
+      "specialty": "Original and classic creepypasta",
+      "estimated_subscribers": "1M+",
+      "content_type": "Voice-only horror narratives"
+    },
+    {
+      "name": "Dr. Creepen",
+      "url": "https://www.youtube.com/@DrCreepen",
+      "description": "Classic horror narrator with distinctive voice",
+      "specialty": "Traditional horror story narration",
+      "estimated_subscribers": "800K+",
+      "content_type": "Audio-focused horror stories"
+    },
+    {
+      "name": "Chilling Tales for Dark Nights",
+      "url": "https://www.youtube.com/@ChillingTalesforDarkNights",
+      "description": "Horror anthology channel with multiple narrators",
+      "specialty": "Variety of horror sub-genres",
+      "estimated_subscribers": "1.2M+",
+      "content_type": "Professional horror story productions"
+    },
+    {
+      "name": "The Dark Somnium",
+      "url": "https://www.youtube.com/@TheDarkSomnium",
+      "description": "Atmospheric horror stories with ambient background",
+      "specialty": "Psychological and atmospheric horror",
+      "estimated_subscribers": "500K+",
+      "content_type": "Immersive horror narratives"
+    },
+    {
+      "name": "Let's Read Podcast",
+      "url": "https://www.youtube.com/@LetsReadPodcast",
+      "description": "Popular horror story podcast with long-form narrations",
+      "specialty": "True horror stories and creepypasta compilations",
+      "estimated_subscribers": "1M+",
+      "content_type": "Podcast-style horror story collections"
+    },
+    {
+      "name": "The Storyteller Channel",
+      "url": "https://www.youtube.com/@TheStorytellerChanel",
+      "description": "Horror storytelling channel with atmospheric narrations",
+      "specialty": "Original horror stories and classic tales",
+      "estimated_subscribers": "500K+",
+      "content_type": "Atmospheric horror storytelling"
+    }
+  ],
+  "analysis_goals": [
+    "Identify successful story opening hooks",
+    "Analyze pacing patterns in long-form content",
+    "Extract horror elements that drive engagement",
+    "Study title patterns for high-performing videos",
+    "Understand audience retention techniques"
+  ],
+  "notes": {
+    "content_respect": "Analysis for inspiration only - never copy content directly",
+    "fair_use": "Transcript analysis falls under fair use for research purposes",
+    "original_creation": "Use patterns to create original stories, not derivatives"
+  }
+}

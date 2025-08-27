@@ -1,0 +1,124 @@
+{
+  "analysis_date": "2025-08-27",
+  "channels_analyzed": 2,
+  "channels": {
+    "Let's Read Podcast": {
+      "channel_name": "Let's Read Podcast",
+      "videos_analyzed": 5,
+      "videos": [
+        {
+          "video_id": "mdFFs8vILmY",
+          "channel": "Let's Read Podcast",
+          "metadata": {
+            "title": "5 True Scary Motel Stories That Still Haunt Me",
+            "view_count": 122422,
+            "duration": "3090.0",
+            "url": "https://www.youtube.com/watch?v=mdFFs8vILmY"
+          },
+          "total_duration_seconds": 3087,
+          "total_duration_minutes": 51.5,
+          "story_count": 0,
+          "stories": [],
+          "average_story_duration": 0,
+          "transcript_segments": 3979
+        },
+        {
+          "video_id": "DM1u0oCXEVE",
+          "channel": "Let's Read Podcast",
+          "metadata": {
+            "title": "Moving Into a Nightmare | 5 True Scary New House Stories",
+            "view_count": 134437,
+            "duration": "2819.0",
+            "url": "https://www.youtube.com/watch?v=DM1u0oCXEVE"
+          },
+          "total_duration_seconds": 2815,
+          "total_duration_minutes": 46.9,
+          "story_count": 0,
+          "stories": [],
+          "average_story_duration": 0,
+          "transcript_segments": 3675
+        },
+        {
+          "video_id": "nCXvbpzQzkw",
+          "channel": "Let's Read Podcast",
+          "metadata": {
+            "title": "7 True Scary Vacation Horror Stories From Abroad",
+            "view_count": 122932,
+            "duration": "3798.0",
+            "url": "https://www.youtube.com/watch?v=nCXvbpzQzkw"
+          },
+          "total_duration_seconds": 3793,
+          "total_duration_minutes": 63.2,
+          "story_count": 0,
+          "stories": [],
+          "average_story_duration": 0,
+          "transcript_segments": 4882
+        },
+        {
+          "video_id": "gbSVXIjzAQA",
+          "channel": "Let's Read Podcast",
+          "metadata": {
+            "title": "5 True Catskills Mountain Stories Too Creepy to Forget",
+            "view_count": 136902,
+            "duration": "3257.0",
+            "url": "https://www.youtube.com/watch?v=gbSVXIjzAQA"
+          },
+          "total_duration_seconds": 3255,
+          "total_duration_minutes": 54.2,
+          "story_count": 0,
+          "stories": [],
+          "average_story_duration": 0,
+          "transcript_segments": 4186
+        },
+        {
+          "video_id": "MfC-t1nE4QU",
+          "channel": "Let's Read Podcast",
+          "metadata": {
+            "title": "6 True Scary Childhood Trauma Stories",
+            "view_count": 138659,
+            "duration": "3631.0",
+            "url": "https://www.youtube.com/watch?v=MfC-t1nE4QU"
+          },
+          "total_duration_seconds": 3626,
+          "total_duration_minutes": 60.4,
+          "story_count": 3,
+          "stories": [
+            {
+              "story_number": 1,
+              "start_time_formatted": "00:21:12",
+              "duration_seconds": 2,
+              "duration_minutes": 0.0,
+              "word_count": 8,
+              "boundary_text": "my friend about my true ghost story from..."
+            },
+            {
+              "story_number": 2,
+              "start_time_formatted": "00:21:14",
+              "duration_seconds": 0,
+              "duration_minutes": 0.0,
+              "word_count": 8,
+              "boundary_text": "my friend about my true ghost story from..."
+            },
+            {
+              "story_number": 3,
+              "start_time_formatted": "00:21:14",
+              "duration_seconds": 2352,
+              "duration_minutes": 39.2,
+              "word_count": 21178,
+              "boundary_text": "my friend about my true ghost story from..."
+            }
+          ],
+          "average_story_duration": 20.1,
+          "transcript_segments": 4559
+        }
+      ],
+      "summary": {
+        "avg_stories_per_video": 0.6,
+        "avg_video_duration_minutes": 55.2,
+        "avg_story_duration_minutes": 20.1,
+        "total_stories_analyzed": 3,
+        "story_count_range": "0-3"
+      }
+    }
+  }
+}

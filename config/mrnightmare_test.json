@@ -1,0 +1,10 @@
+{
+  "description": "Test configuration for Mr. Nightmare channel analysis",
+  "channels": [
+    {
+      "name": "Mr. Nightmare",
+      "url": "https://www.youtube.com/@mrnightmare",
+      "description": "Popular horror story narrator with millions of subscribers, known for true scary stories"
+    }
+  ]
+}
