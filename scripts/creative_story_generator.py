@@ -49,44 +49,70 @@ Generate the complete story now."""
     def generate_compilation_theme(self) -> Dict:
         """Generate a cohesive theme and story concepts using AI"""
         
-        theme_prompt = """Generate a cohesive horror compilation theme for YouTube that will create 8-10 interconnected workplace horror stories.
+        theme_prompt = """Create a horror compilation theme with 4 story concepts.
 
-REQUIREMENTS:
-- Create an overarching theme that connects all stories
-- Generate 12 unique story concepts (we'll select the best 8-10)
-- Each story should be workplace horror with realistic human antagonists
-- Concepts should be creative and unique, not formulaic combinations
-- Include specific plot hooks, character details, and horror elements
-- Target 12-15 minutes when narrated (1400-1800 words)
-
-OUTPUT FORMAT:
+Generate JSON output with this exact structure:
 {
-  "compilation_theme": "Brief theme description",
-  "compilation_title": "YouTube-ready title", 
-  "theme_description": "Detailed explanation of what connects these stories",
+  "compilation_theme": "Night shift workplace horror",
+  "compilation_title": "4 True Scary Night Shift Stories That Will Keep You Awake", 
+  "theme_description": "Stories about night shift workers encountering disturbing people",
   "story_concepts": [
     {
       "concept_id": 1,
-      "title": "Story title",
-      "job": "Specific job title",
-      "workplace": "Specific workplace description", 
-      "horror_element": "Specific antagonist/threat description",
-      "unique_hook": "What makes this story different/creative",
-      "character_details": "Narrator background and personality",
-      "plot_outline": "3-4 sentence plot summary",
-      "target_words": 1400-1800,
-      "estimated_minutes": "12-15"
+      "title": "The Cleaning Crew",
+      "job": "night security guard",
+      "workplace": "office building", 
+      "horror_element": "cleaning crew member with disturbing behavior",
+      "unique_hook": "discovers what the cleaner does during breaks",
+      "character_details": "new security guard, observant",
+      "plot_outline": "Guard notices cleaner acting strangely. Investigates and discovers disturbing truth.",
+      "target_words": 1400,
+      "estimated_minutes": "10-12"
+    },
+    {
+      "concept_id": 2,
+      "title": "The Night Caller",
+      "job": "overnight radio DJ",
+      "workplace": "small radio station", 
+      "horror_element": "frequent caller who knows too much",
+      "unique_hook": "caller describes DJ's private life in real time",
+      "character_details": "lonely DJ, works alone",
+      "plot_outline": "Regular caller begins revealing personal information. DJ realizes they're being watched.",
+      "target_words": 1500,
+      "estimated_minutes": "11-13"
+    },
+    {
+      "concept_id": 3,
+      "title": "Storage Room 12",
+      "job": "overnight stocker",
+      "workplace": "big box store", 
+      "horror_element": "coworker with secret storage room activities",
+      "unique_hook": "forbidden storage room used for disturbing purpose",
+      "character_details": "college student, needs the job",
+      "plot_outline": "New worker discovers coworker accessing restricted area. Investigation reveals horrifying truth.",
+      "target_words": 1450,
+      "estimated_minutes": "10-12"
+    },
+    {
+      "concept_id": 4,
+      "title": "The Regular Customer",
+      "job": "night cashier",
+      "workplace": "24-hour gas station", 
+      "horror_element": "customer who visits every night with strange purchases",
+      "unique_hook": "purchases create disturbing pattern over time",
+      "character_details": "young cashier, works alone",
+      "plot_outline": "Regular customer's purchases become increasingly disturbing. Cashier pieces together the horrifying truth.",
+      "target_words": 1400,
+      "estimated_minutes": "10-12"
     }
   ]
-}
-
-Generate compilation with workplace horror theme focusing on night shift workers encountering disturbing colleagues or situations."""
+}"""
 
         print("🎨 Generating creative compilation theme and story concepts...")
         
         try:
             cmd = ['claude', '--print', '--model', 'opus']
-            result = subprocess.run(cmd, input=theme_prompt, capture_output=True, text=True, timeout=120)
+            result = subprocess.run(cmd, input=theme_prompt, capture_output=True, text=True, timeout=60)
             
             if result.returncode != 0:
                 print(f"❌ Theme generation error: {result.stderr}")
