@@ -1,0 +1,67 @@
+# Test Results and Generated Content
+/tests/
+/temp/
+/output/
+
+# Audio and Video Files
+*.mp3
+*.wav
+*.mp4
+*.avi
+*.mov
+
+# Generated Assets
+/assets/stories/
+/assets/narration/
+/assets/images/
+/assets/videos/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# API Keys and Secrets
+.env
+*.key
+*_token
+*_secret
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Node modules (if any)
+node_modules/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+Thumbs.db
